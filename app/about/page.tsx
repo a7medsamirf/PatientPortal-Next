@@ -1,14 +1,16 @@
+"use client";
+ 
 import { ThemeProvider, Button } from "@material-tailwind/react";
-
-const withMT = require('@material-tailwind/react/src/utils/withMT');
-
+ 
+export { ThemeProvider, Button };
 
 
 export default function page() {
   return (
-    <div>about
+    <div>
+      about
 
-<Button>Button</Button>;
+            <Button>Button</Button>;
     </div>
   )
 }
