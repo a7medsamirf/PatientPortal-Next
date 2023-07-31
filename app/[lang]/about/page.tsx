@@ -1,9 +1,9 @@
 "use client";
  
 import { Button } from "@material-tailwind/react";
-import { CardDefault } from "@/components/CardDefault";
-import { PageWrapper } from "@/components/page-wrapper";
-import { Container } from "@/components/container";
+import { CardDefault } from "@/app/[lang]/components/CardDefault";
+import { PageWrapper } from "@/app/[lang]/components/page-wrapper";
+import { Container } from "@/app/[lang]/components/container";
 
 
 
