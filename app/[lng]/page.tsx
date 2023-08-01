@@ -6,7 +6,7 @@ import { Footer } from './components/Footer'
 interface Params {
   lng: string;
 }
-
+export const FooterBase = ({ t, lng, path = '' }) => {
 export default async function Page({ params: { lng } }: { params: Params }) {
   if (languages.indexOf(lng) < 0) lng = fallbackLng
   const { t } = await useTranslation(lng)
