@@ -1,5 +1,5 @@
-import { Container } from "@/app/[lang]/components/container"
-import { PageWrapper } from "@/app/[lang]/components/page-wrapper"
+import { Container } from "../components/container"
+import { PageWrapper } from "../components/page-wrapper"
 
 export default function page() {
   return (
