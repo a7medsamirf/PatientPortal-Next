@@ -7,7 +7,7 @@ function useThemeSwitcher() {
     // Check for theme preference in local storage
     const mediaQuery = window.matchMedia(preferDarkQuery);
     const userPref = window.localStorage.getItem("theme");
-    console.log("User pref:", userPref);
+/*     console.log("User pref:", userPref); */
     const handleChange = () => {
       if (userPref) {
         let check = userPref === "dark" ? "dark" : "light";
@@ -37,7 +37,7 @@ function useThemeSwitcher() {
     if(mode === "dark"){
     window.localStorage.setItem("theme","dark");
     document.documentElement.classList.add("dark")
-    }if(mode === "light"){
+    }else{
     window.localStorage.setItem("theme","light");
     document.documentElement.classList.remove("dark")
     }

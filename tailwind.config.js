@@ -21,6 +21,8 @@ module.exports = withMT({
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
     },
+    backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
+
       backgroundImage: {
         circularLight:
             "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px,#f5f5f5 100px)",
@@ -46,7 +48,9 @@ module.exports = withMT({
         circularDarkSm:
             "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 8px,#1b1b1b 40px)",
     },
-    
+    boxShadow: {
+      "3xl": "0 15px 15px 1px rgba(80,230,217, 0.4)",
+  }
     },
     screens: {
       "2xl": { max: "1535px" },
